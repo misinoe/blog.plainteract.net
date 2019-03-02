@@ -7,7 +7,7 @@ tags:
 
 WebWorkerとのpostMessageに掛る時間をシンプルに計測する物を作りました。
 
-https://misinoe.github.io/WebworkerPostmessageTest/
+[https://misinoe.github.io/WebworkerPostmessageTest/](https://misinoe.github.io/WebworkerPostmessageTest/)
 
 開発時間は15分程度。
 
@@ -19,12 +19,14 @@ https://misinoe.github.io/WebworkerPostmessageTest/
 OffscreenCanvas は描画に関わる処理を WebWorker に行わせる事でメインスレッドの負担を減らし、Webサイトのパフォーマンスを向上させる事ができます。
 
 とはいえ、 WebWorkerとのデータのやり取りに主だって使う [Worker.postMessage()](https://developer.mozilla.org/en-US/docs/Web/API/Worker/postMessage) はどれくらいの時間がかかるでしょうか？
+
 もし、 16.67ms より時間がかかる場合、60Hzのディスプレイでは1フレーム以上の遅延が発生するだろうと推測する事ができます。
+
 更に 100ms や、それ以上かかってしまうならば、もはやユーザーのタッチやクリックに反応するグラフィックの描画をWebWorkerに任せる事ができないと言えるでしょう。
 
 それらを明らかにするため測定をします。
 
-https://misinoe.github.io/WebworkerPostmessageTest/
+[https://misinoe.github.io/WebworkerPostmessageTest/](https://misinoe.github.io/WebworkerPostmessageTest/)
 
 ## 結果
 
