@@ -8,7 +8,8 @@ tags:
 
 ## 1. WebNoteのゲーム画面を開く
 
-https://webnote.plainteract.net/room/2
+[https://webnote.plainteract.net/room/2](https://webnote.plainteract.net/room/2)
+
 
 ## 2. アドレスバーで次のスクリプトを実行
 
@@ -19,11 +20,14 @@ javascript:(()=>{let o=JSON,t=[];for(let l=0;l<12;l++){let r=0|o.parse(localStor
 * ブラウザのセキュリティ設計により、アドレスバーにコピー＆ペーストすると先頭の「javascript:」の部分が削除されたりします。手動で入力してください。
 
 上手く行くと「please copy」というプロンプトが表示されます。
+
 カラーコード一覧をメモ帳等にコピペし控えて下さい。
+
 
 ## 3. WN2:LineArtのゲーム画面を開く
 
-http://lineart.plainteract.net/canvas/room2
+[https://lineart.plainteract.net/canvas/room2](https://lineart.plainteract.net/canvas/room2)
+
 
 ## 4. アドレスバーで次のスクリプトを実行
 
@@ -36,4 +40,5 @@ javascript:(()=>{let e=JSON,r=e.parse,t=localStorage,l="tool-preset-v9",o=r(prom
 ## 5. おわり
 
 全行程が上手く行くと、「Done!」と表示されページがリロードされます。
+
 色が移植されているはずです。
