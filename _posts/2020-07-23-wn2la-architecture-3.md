@@ -7,8 +7,6 @@ tags:
 
 [前の記事](./2020-07-23-wn2la-architecutre-2.md)
 
-# WN2:LineArtを構成する技術 ③コンテナ・TypeScript・CI/CD
-
 ## コンテナ構成
 
 ![](../images/20200822/wn2la-architecture-container.png)
