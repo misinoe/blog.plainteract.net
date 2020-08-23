@@ -5,7 +5,7 @@ tags:
 - WN2:LineArt
 ---
 
-[前の記事](./2020-07-23-wn2la-architecutre-2.md)
+[前の記事](./2020-08-23-wn2la-architecutre-2.md)
 
 ## コンテナ構成
 
@@ -15,9 +15,9 @@ nginxを公開し、パスに応じてコンテナ間通信においてWebアプ
 
 ## TypeScriptの構成
 
-![](../images/20200822/wn2la-architecutre-typescript.png)
+共通のinterfaceやclassはcommon/で開発され、WebアプリケーションとWebSocketサーバーのコンテナにストレージとしてマウントされ、モジュールとしてそれぞれに持ち込まれています。
 
-共通のinterfaceやclassはcommon/で開発され、WebアプリケーションとWebSocketサーバーのコンテナにストレージとしてマウントされ、モジュールとして使用しています。
+![](../images/20200822/wn2la-architecutre-typescript.png)
 
 ## CI/CDの構成
 
