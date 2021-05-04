@@ -31,6 +31,8 @@ HLSの配信/視聴システムを作り、3Dアバターを使ったバーチ�
 図の通り `nginx-rtmp` は `OBS` からの `rtmp` ストリーミングを受け取り、 `hls` に変換する役目を担います。
 変換された `hls` はdockerのVolumeを共有することにより、`nginx` コンテナから公開し、`next` アプリケーションから `hls.js` を利用しHLS動画が再生される仕組みとなっています。
 
+**docker-compose.yml**
+
 ```
 version: '3'
 services:
@@ -79,6 +81,9 @@ GCPのファイアウォールルールを設定します。
 
 
 #### nginx-rtmpのnginx.conf
+
+**nginx-rtmp/nginx.conf**
+
 ```
 worker_processes auto;
 rtmp_auto_push on;
@@ -123,7 +128,9 @@ rtmp {
 
 #### nginx.conf
 
-```docker-compose.yml
+**nginx/docker-compose.yml**
+
+```
 server {
   listen 8080 default_server;
   server_tokens off;
@@ -173,9 +180,12 @@ server {
 
 Webアプリケーション開発フレームワークとして `Next.js` を利用しています。
 
+
 #### コンテナ構成
 
-```Dockerfile
+**next/Dockerfile**
+
+```
 FROM node:14
 
 WORKDIR /var/next
@@ -203,7 +213,9 @@ fi
 
 `Next.js` + `TypeScript` + `material-ui` をベースに、 `hls.js` で動画を再生、 `socket.io-client` でチャットを実装する構成になっています。
 
-```package.json
+**next/package.json**
+
+```
 {
   "scripts": {
     "dev": "next",
@@ -234,7 +246,9 @@ fi
 
 以下、一部抜粋したコードになります。
 
-```live.tsx
+**next/pages/live.tsx**
+
+```
 import * as React from 'react';
 import HLS from 'hls.js';
 import { io as SocketIO } from 'socket.io-client';
