@@ -26,5 +26,3 @@ nginxを公開し、パスに応じてコンテナ間通信においてWebアプ
 CI/CDはGitHub Actionsを利用しています。
 developブランチにmergeされるとステージングに、masterブランチにmergeされると本番サーバーに自動デプロイされます。
 
-
-続く
