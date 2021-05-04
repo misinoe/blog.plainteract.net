@@ -344,6 +344,7 @@ GCPのLBはコネクションドレインを防ぐため、初期設定で30秒�
 ### OBS
 
 `OBS` を使い、`Luppet` や `VDRAW` の画面を取得し、`nginx-rtmp` に動画をRTMPプロトコルで送信します。
+
 [OBS](https://obsproject.com/)
 
 シーンを追加し、ソースをよしなに構成。
