@@ -196,7 +196,9 @@ EXPOSE 3000
 CMD ["sh", "start.sh"]
 ```
 
-```start.sh
+**next/start.sh**
+
+```
 #!/bin/sh
 if [ $STAGE = "development" ]; then
   yarn install
