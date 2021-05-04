@@ -338,8 +338,7 @@ GCPのLBはコネクションドレインを防ぐため、初期設定で30秒�
 
 次のような環境で配信しています
 
-
-![3D Model architecture](../images/20210504/model-architecture.png)
+![cast architecture](../images/20210504/cast-architecture.png)
 
 
 ### OBS
@@ -384,6 +383,8 @@ Personal版が6,000円です。
 
 
 ## 3Dアバター
+
+![3D Model architecture](../images/20210504/model-architecture.png)
 
 * [VRoid](https://vroid.com/) を使って3Dアバターを作成しました。
 * そのままでも利用可能ですが、 `パーフェクトシンク` に対応させるためは `Unity` でよしなに編集し、 `VRM` をエクスポートする必要があります。
