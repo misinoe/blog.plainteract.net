@@ -5,7 +5,7 @@ tags:
 - WN2:LineArt
 ---
 
-[前の記事](./2020-08-23-wn2la-architecutre-2.md)
+[前の記事](/2020-08-23-wn2la-architecutre-2.md)
 
 ## コンテナ構成
 
