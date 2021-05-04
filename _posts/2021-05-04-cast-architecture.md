@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 動画配信システムを構築した話
+title: 3Dアバター動画配信システムを構築した話
 tags:
 - Live
 ---
