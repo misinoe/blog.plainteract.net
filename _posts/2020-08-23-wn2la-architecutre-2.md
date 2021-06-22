@@ -51,4 +51,4 @@ tags:
 * プロセスを分離(コンテナごと分離した)
 
 
-[続く](/2020-08-23-wn2la-architecutre-3.md)
+[続く](/wn2la-architecutre-3.md)
