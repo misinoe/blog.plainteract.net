@@ -47,7 +47,7 @@ chrome://flagsを開き、必要そうなflagを有効にします。
 恐らく、この２つを有効にする事でWebXR Device APIが使えるようになると思います。
 
 Canary再起動後、devtoolのconsoleで `navigator.xr` にアクセスできるのを確認しました。
-![](../images/20180310/image03.png)
+![](../images/2018-03-10/image03.png)
 
 ### SSLサーバーを建てる
 
