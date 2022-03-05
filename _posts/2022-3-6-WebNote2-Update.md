@@ -2,8 +2,7 @@
 layout: post
 title: WebNote2:LineArtアップデート情報
 tags:
-- Live
-- WebRTC
+- WebNote2:LineArt
 ---
 
 本日WebNote2:LineArtの更新を行いました。
