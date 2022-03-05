@@ -1,11 +1,11 @@
 ---
 layout: post
-title: WN2:LineArtを構成する技術 ①全体編
+title: WebNote2:LineArtを構成する技術 ①全体編
 tags:
-- WN2:LineArt
+- WebNote2:LineArt
 ---
 
-WN2:LineArtがどのような技術で構築されているかについてご紹介します。
+WebNote2:LineArtがどのような技術で構築されているかについてご紹介します。
 
 ## 技術スタック
 

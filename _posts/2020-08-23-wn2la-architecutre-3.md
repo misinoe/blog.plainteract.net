@@ -1,8 +1,8 @@
 ---
 layout: post
-title: WN2:LineArtを構成する技術 ③コンテナ・TypeScript・CI/CD
+title: WebNote2:LineArtを構成する技術 ③コンテナ・TypeScript・CI/CD
 tags:
-- WN2:LineArt
+- WebNote2:LineArt
 ---
 
 [前の記事](/wn2la-architecutre-2)

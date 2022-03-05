@@ -1,12 +1,12 @@
 ---
 layout: post
-title: WN2:LineArtを構成する技術 ②過去からの踏襲
+title: WebNote2:LineArtを構成する技術 ②過去からの踏襲
 tags:
-- WN2:LineArt
+- WebNote2:LineArt
 ---
 
 
-[前の記事](/2020-08-23-wn2la-architecutre-1) にて、WN2:LineArtの技術構成について触れました。
+[前の記事](/2020-08-23-wn2la-architecutre-1) にて、WebNote2:LineArtの技術構成について触れました。
 その構成については過去数度、類似するサービス運用を経て得た成功と失敗の踏襲に由来する部分もあります。
 
 
