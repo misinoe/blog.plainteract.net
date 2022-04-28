@@ -3,7 +3,6 @@ layout: post
 title: WebNote1はWebNote2:LineArtに移行します
 tags:
 - WebNote
-- WebNote2:LineArt
 ---
 
 ## 移行スケジュール

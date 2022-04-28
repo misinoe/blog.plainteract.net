@@ -1,8 +1,8 @@
 ---
 layout: post
-title: WebNote4 2022年4月23日
+title: WebNote4 2022年4月21日
 tags:
-- WebNote4
+- WebNote
 ---
 
 本日WebNote4のリリースを行いました。

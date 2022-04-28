@@ -2,7 +2,7 @@
 layout: post
 title: WebNote2:LineArtを構成する技術 ③コンテナ・TypeScript・CI/CD
 tags:
-- WebNote2:LineArt
+- WebNote
 ---
 
 [前の記事](/wn2la-architecutre-2)

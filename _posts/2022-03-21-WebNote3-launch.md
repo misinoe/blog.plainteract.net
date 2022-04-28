@@ -2,8 +2,7 @@
 layout: post
 title: WebNote3:LineArtアップデート情報 2022年3月21日
 tags:
-- WebNote2:LineArt
-- WebNote3:LineArt
+- WebNote
 ---
 
 本日、WebNote3:LineArtをローンチしました。

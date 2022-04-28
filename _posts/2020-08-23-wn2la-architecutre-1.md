@@ -2,7 +2,7 @@
 layout: post
 title: WebNote2:LineArtを構成する技術 ①全体編
 tags:
-- WebNote2:LineArt
+- WebNote
 ---
 
 WebNote2:LineArtがどのような技術で構築されているかについてご紹介します。
